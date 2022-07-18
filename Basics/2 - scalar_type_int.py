@@ -40,4 +40,9 @@ print(conv_int4)
 # The 2 optinal argument to the int constructor - base
 # int(valid_string_int_literal, base=10); defaults to 10
 print(int('10', 2)) # results as 2
+# 16 8 4 2 0 # Binary representation
+# 0  0 0 1 0 # int('10', 2)
+
 print(int('10000', 3)) # results as 81
+# 81 27 9 3 0 # Tertiary representation
+# 1  0  0 0 0 # int('10000', 3)
