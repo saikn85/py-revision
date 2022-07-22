@@ -24,3 +24,8 @@ variable_a = None # Does nothing, Na da!!!
 
 # Note: on a Python REPL session, the _ (underscore) stores the result of
 # the previously executed statement/ expression
+
+# Note:
+# By default, an object is considered true unless its class defines either
+# a __bool__() method that returns False or a __len__() method that returns zero,
+# when called with the object.
